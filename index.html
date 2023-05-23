@@ -1,0 +1,22 @@
+<div></div>
+<h1>Slider using CSS</h1>
+<style>
+    div{
+        height: 600px;
+        width: 1px solid black;
+        animation: sliding 6s linear infinite;
+    }
+    h1{
+        font-size: 50px;
+        text-align: center;
+        margin: 0px;
+        padding: 10px;
+        background-color: brown;
+        color: white;
+    }
+    @keyframes sliding{
+        0%{background: url(1.webp);}
+        40%{background: url(2.webp);}
+        100%{background: url(3.webp);}
+    }
+</style>
